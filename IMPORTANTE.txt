@@ -1,0 +1,11 @@
+Los ejercicios 3 y 4 fueron resueltos haciendo algunas pruebas y análisis del código. No las usamos en general
+
+EJERCICIO 3
+Imprime 10 registros ya que limita fname con LIMIT 10 y luego lo recorre y devuelve el valor
+
+EJERCICIO 4
+Se compilará
+Habrá un error en tiempo de ejecución
+
+EJERCICIO 5
+Resuelto con el ejercicio 1. Línea comentada en el proyecto TarjetasCredito, Aplicativo.java
