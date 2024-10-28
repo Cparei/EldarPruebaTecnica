@@ -1,3 +1,6 @@
+EJERCICIO 2
+En el json de entrada solicito marca de la tarjeta ya que es la única manera de determinar la tasa a calcular
+
 Los ejercicios 3 y 4 fueron resueltos haciendo algunas pruebas y análisis del código. No las usamos en general
 
 EJERCICIO 3
