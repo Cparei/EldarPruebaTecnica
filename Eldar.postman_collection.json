@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "5bb497d0-d7a4-448b-8e14-532deae4035b",
+		"name": "Eldar",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28802730"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/tarjeta/getTasaOperacion",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "marca",
+						"value": "\"VISA\"",
+						"type": "text"
+					},
+					{
+						"key": "monto",
+						"value": "1500.0",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"marca\": \"NARA\",\r\n    \"monto\": -150\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/tarjeta/getTasaOperacion",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"tarjeta",
+						"getTasaOperacion"
+					],
+					"query": [
+						{
+							"key": "marca",
+							"value": "VISA",
+							"disabled": true
+						},
+						{
+							"key": "monto",
+							"value": "150",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
